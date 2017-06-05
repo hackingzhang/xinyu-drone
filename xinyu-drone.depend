@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1493211757 source:/home/pi/Desktop/xinyu-drone/main.cpp
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	"MPU9250.h"
+	"KalmanFilter.h"
+	"PID.h"
+	"CascadePID.h"
+	"tools.h"
+
+1493149722 source:/home/pi/Desktop/xinyu-drone/src/CtrlRecv.cpp
+	"CtrlRecv.h"
+
+1492460362 source:/home/pi/Desktop/xinyu-drone/src/Echo.cpp
+	"Echo.h"
+
+1493205616 source:/home/pi/Desktop/xinyu-drone/src/ESCDriver.cpp
+	"ESCDriver.h"
+	<wiringPi.h>
+	<wiringPiI2C.h>
+
+1493180622 source:/home/pi/Desktop/xinyu-drone/src/MPU9250.cpp
+	"MPU9250.h"
+
+1493149672 /home/pi/Desktop/xinyu-drone/include/CtrlRecv.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1492460342 /home/pi/Desktop/xinyu-drone/include/Echo.h
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1493206983 /home/pi/Desktop/xinyu-drone/include/ESCDriver.h
+
+1493180279 /home/pi/Desktop/xinyu-drone/include/MPU9250.h
+	<wiringPi.h>
+	<wiringPiI2C.h>
+
+1492711524 source:/home/pi/Desktop/xinyu-drone/src/KalmanFilter.cpp
+	"KalmanFilter.h"
+
+1492647329 /home/pi/Desktop/xinyu-drone/include/KalmanFilter.h
+
+1493210882 /home/pi/Desktop/xinyu-drone/include/tools.h
+
+1492782790 source:/home/pi/Desktop/xinyu-drone/src/PID.cpp
+	"PID.h"
+
+1492782832 /home/pi/Desktop/xinyu-drone/include/PID.h
+
+1493232734 source:/home/pi/Desktop/xinyu-drone/src/CascadePID.cpp
+	"CascadePID.h"
+
+1493169040 /home/pi/Desktop/xinyu-drone/include/CascadePID.h
+
+1493115297 source:/home/pi/Desktop/xinyu-drone/src/boot.cpp
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	"MPU9250.h"
+	"KalmanFilter.h"
+	"PID.h"
+	"tools.h"
+
+1493245820 source:/home/pi/Desktop/xinyu-drone/boot.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<pthread.h>
+	"Echo.h"
+	"CtrlRecv.h"
+	"MPU9250.h"
+	"ESCDriver.h"
+	"KalmanFilter.h"
+	"PID.h"
+	"CascadePID.h"
+	"tools.h"
+
+1493209127 source:/home/pi/Desktop/xinyu-drone/src/tools.cpp
+	<sys/time.h>
+	<string.h>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="xinyu-drone" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/xinyu-drone" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="wiringPi" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/xinyu-drone" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="wiringPi" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="boot.cpp" />
+		<Unit filename="include/CascadePID.h" />
+		<Unit filename="include/CtrlRecv.h" />
+		<Unit filename="include/ESCDriver.h" />
+		<Unit filename="include/Echo.h" />
+		<Unit filename="include/KalmanFilter.h" />
+		<Unit filename="include/MPU9250.h" />
+		<Unit filename="include/PID.h" />
+		<Unit filename="include/tools.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CascadePID.cpp" />
+		<Unit filename="src/CtrlRecv.cpp" />
+		<Unit filename="src/ESCDriver.cpp" />
+		<Unit filename="src/Echo.cpp" />
+		<Unit filename="src/KalmanFilter.cpp" />
+		<Unit filename="src/MPU9250.cpp" />
+		<Unit filename="src/PID.cpp" />
+		<Unit filename="src/tools.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
